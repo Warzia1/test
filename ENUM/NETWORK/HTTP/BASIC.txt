@@ -1,0 +1,5 @@
+HTTP: Could potentially host a web application where you can find vulnerabilities 
+like SQL injection or Remote Code Execution (RCE). 
+
+How does HTTPS actually work?
+https://robertheaton.com/2014/03/27/how-does-https-actually-work/

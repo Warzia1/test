@@ -1,0 +1,42 @@
+import socket
+import re
+
+
+def main():
+    # Adresse et port du serveur à contacter
+    server_address = ('challenge01.root-me.org', 52021)
+    
+    try:
+        # Création d'une socket TCP
+        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
+            # Connexion au serveur
+            sock.connect(server_address)
+            
+            # Réception des données du serveur
+            data = sock.recv(4096)
+            
+            # Affichage des données reçues
+            print("Données reçues du serveur :", data.decode())
+            data_decode = data.decode()
+            
+            # Extraction 
+         
+            #operation
+            
+            # Envoi du nombre calculé au serveur
+            sock.send(str(decoded_string).encode())
+            
+            # Simulation de l'appui sur la touche "Entrer" pour le serveur
+            sock.send(b'\n')
+            
+
+            
+            # Réception de la deuxième réponse du serveur
+            data2 = sock.recv(4096)
+            print( data2.decode())
+        
+    except socket.error as e:
+        print("Erreur de connexion au serveur :", e)
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,23 @@
+sudo apt install gobuster
+
+FOR map the site (mapper)
+
+gobuster dir -u [IP] -w [path_of_file]
+/usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt 
+
+OPTIONS :
+
+for add type endpoint :
+-x php,txt,html 
+
+-U and -P	Username and Password for Basic Auth
+
+-p <x>	Proxy to use for requests
+
+-c <http cookies>	Specify a cookie for simulating your auth
+
+-s 20 pour metter 20 requete par sec
+
+USE -k FOR BYPASS DDOS PROTECTION
+
+

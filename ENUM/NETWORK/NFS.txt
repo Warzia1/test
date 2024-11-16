@@ -1,0 +1,21 @@
+Network File System (NFS), ou système de fichiers en réseau,
+ est une application client/serveur qui permet à un utilisateur
+ de consulter et, éventuellement, de stocker et de mettre à jour 
+des fichiers sur un ordinateur distant, comme s'ils étaient sur 
+son propre ordinateur.
+
+
+  NFS Access ->
+
+        Gain Low Privilege Shell ->
+
+            Upload Bash Executable to the NFS share ->
+
+                Set SUID Permissions Through NFS Due To Misconfigured 
+		Root Squash ->
+
+                    Login through SSH ->
+
+                        Execute SUID Bit Bash Executable ->
+
+                            ROOT ACCESS

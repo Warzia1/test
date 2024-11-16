@@ -1,0 +1,4 @@
+wpscan 
+https://www.kali.org/tools/wpscan/
+
+wpscan --url [url]

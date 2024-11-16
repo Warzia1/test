@@ -1,0 +1,8 @@
+for know registar : whois
+
+for find DNS subdomain : https://dnsdumpster.com/
+
+for find other info : https://www.shodan.io/
+
+
+or use gobuster dns -d [] -w ... -i

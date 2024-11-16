@@ -1,0 +1,5 @@
+Remote Desktop Protocol is a protocol used to establish remote graphical 
+sessions over the network.
+
+RDP: Could be vulnerable to Bluekeep or allow desktop access if weak 
+credentials were used. 

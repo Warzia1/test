@@ -1,0 +1,12 @@
+https://resources.infosecinstitute.com/topics/penetration-testing/what-is-enumeration/
+
+
+NetBIOS enumeration tools
+The following table shows the list of tools to perform NetBIOS enumeration:
+
+Number Name of the tool Web links
+01 Nbtstat www.technet.microsoft.com
+02 SuperScan http://www.mcafee.com/in/downloads/free-tools/superscan.aspx
+03 Hyena http://www.systemtools.com/hyena/
+04 Winfingerprint https://packetstormsecurity.com/files/38356/winfingerprint-0.6.2.zip.html
+05 NetBIOS enumerator http://nbtenum.sourceforge.net/

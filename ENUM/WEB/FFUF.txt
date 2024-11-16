@@ -1,0 +1,6 @@
+https://linuxcommandlibrary.com/man/ffuf
+
+it's the same thing than gobuster
+
+you can filter your output
+

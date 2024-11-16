@@ -1,0 +1,7 @@
+https://github.com/boundary/wireshark/tree/master
+
+
+for search info in TCP conversation
+add filtre : tcp.stream eq [number(entier)]
+
+click droit  : follow TCPst

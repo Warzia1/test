@@ -1,0 +1,5 @@
+DOWNLOAD : https://github.com/ffuf/ffuf
+
+find directory :
+ffuf -w [PATH LIST] -u [url]/FUZZ
+

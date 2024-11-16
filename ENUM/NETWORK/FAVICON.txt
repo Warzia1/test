@@ -1,0 +1,4 @@
+can give informations of framework
+
+download (curl) the image and compare it with the hash database
+https://wiki.owasp.org/index.php/OWASP_favicon_database

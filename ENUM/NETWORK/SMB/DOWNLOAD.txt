@@ -1,0 +1,2 @@
+on host :
+smbget -R smb://[IP]/[name of share]

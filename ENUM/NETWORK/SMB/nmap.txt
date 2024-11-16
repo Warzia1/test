@@ -1,0 +1,3 @@
+--script=smb-enum-shares.nse,smb-enum-users.nse
+
+--script=nfs-ls,nfs-statfs,nfs-showmount

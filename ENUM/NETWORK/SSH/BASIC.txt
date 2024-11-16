@@ -1,0 +1,26 @@
+Secure Shell (SSH) refers to a cryptographic network protocol used in secure 
+communication between devices. SSH encrypts data using cryptographic algorithms,
+ such as Advanced Encryption System (AES) and is often used when logging in 
+remotely to a computer or server.
+
+SSH: Could have default or easy to guess credentials
+
+ssh [username]@IP
+
+pour se connecter avec une clé RSA: il faut la private key ( et la puclic) 
+and change the permissions to "600" using "chmod 600 [file]".
+Puis place tes clés dans ton répertoire .ssh/ (mv ~/.ssh.)
+
+ssh-keygen
+
+copy the public key to the server (ONLY IF YOU KNOW PASSWORD):
+scp ~/.ssh/id_rsa.pub tryhackme@10.10.125.203:~/.ssh/authorized_keys
+
+change permissoins :
+chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys
+
+
+
+
+ssh -i keyNameGoesHere user@host
+ssh -i root_key -oPubkeyAcceptedKeyTypes=+ssh-rsa -oHostKeyAlgorithms=+ssh-rsa root@10.10.147.245

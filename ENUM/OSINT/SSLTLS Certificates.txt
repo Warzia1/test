@@ -1,0 +1,6 @@
+Un certificat SSL/TLS (Transport Layer Security/Secure Sockets Layer) est un 
+fichier numérique qui lie une clé cryptographique à une identité. Les certificats
+ SSL/TLS sont utilisés pour sécuriser les communications sur Internet et les 
+réseaux privés.
+
+https://crt.sh and https://ui.ctsearch.entrust.com/ui/ctsearchui

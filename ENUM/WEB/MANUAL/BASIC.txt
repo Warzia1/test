@@ -1,0 +1,7 @@
+directory is'nt allowed to be viewed by web crawlers :
+/robot.txt
+
+map of site :
+/sitemap.xml
+
+

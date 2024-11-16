@@ -1,0 +1,14 @@
+File Transfer Protocol (FTP) is a protocol designed to help the efficient 
+transfer of files between different and even non-compatible systems. It supports 
+two modes for file transfer: binary and ASCII (text).
+
+
+FTP: Could allow anonymous login and provide access to interesting files. 
+
+mainly user is anonymous
+
+ftp [ip] [port]
+
+https://www.exploit-db.com/exploits/20745
+
+info : https://exploit-notes.hdks.org/exploit/network/protocol/ftp-pentesting/

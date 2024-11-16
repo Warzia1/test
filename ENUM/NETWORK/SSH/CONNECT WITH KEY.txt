@@ -1,0 +1,5 @@
+PRIVATE KEY :
+
+
+chmod 600 [id_rsa]
+ssh -i [id_rsa] user@[IP]

@@ -1,0 +1,17 @@
+Server Message Block (SMB) is a communication protocol[1] originally developed 
+in 1983 by Barry A. Feigenbaum at IBM[2] and intended to provide shared access 
+to files and printers across nodes on a network of systems running IBM's OS/2. 
+It also provides an authenticated inter-process communication (IPC) mechanism.
+
+SMB: Could be vulnerable to SMB exploits like MS17-010
+
+What would be the correct syntax to access an SMB share called "secret" as user 
+"suit" 
+on a machine with the IP 10.10.10.2 on the default port?
+
+smbclient //10.10.10.2/secret -U suit
+
+quand on est dans une smb cosole on peut faire help pour voir le peu de commande
+ on a.
+
+SERVICE = microsoft-ds?

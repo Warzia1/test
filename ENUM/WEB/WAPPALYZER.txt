@@ -1,0 +1,6 @@
+Wappalyzer est une extension qui vous permet d'identifier les plateformes de 
+e-commerce, les réseaux de publicité, les outils d'analyse et les autres 
+technologies utilisées sur les sites Web que vous visitez.
+
+https://www.wappalyzer.com/
+
